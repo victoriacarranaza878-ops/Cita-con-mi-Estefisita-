@@ -14,26 +14,26 @@ body{overflow:hidden}
 .page:before{content:"";position:absolute;inset:-20%;background:radial-gradient(circle at 50% 20%,#593849 0,transparent 32%),radial-gradient(circle at 15% 90%,#322a31 0,transparent 34%);opacity:.9;pointer-events:none}
 .stars{position:absolute;inset:0;background-image:radial-gradient(#fff 1px,transparent 1px);background-size:55px 55px;opacity:.11;pointer-events:none}
 .card{width:min(650px,100%);max-height:calc(100svh - 36px);position:relative;z-index:2;text-align:center;animation:entrada .65s ease;overflow-y:auto;scrollbar-width:none;padding:8px 0 12px}
-.card::-webkit-scrollbar{display:none}
-@keyframes entrada{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
-.kicker{font:600 10px Arial,sans-serif;letter-spacing:3px;text-transform:uppercase;color:#d7aabd}
-h1{font-size:clamp(38px,10vw,72px);line-height:.92;margin:12px 0}
-h2{font-size:clamp(27px,7vw,46px);margin:10px 0 16px}
-p{font-size:clamp(15px,4.2vw,18px);line-height:1.55;color:#e9dfe4;margin:11px 0}
-.small{font:12px Arial,sans-serif;color:#a89ca3}
-.panel{background:#ffffff0a;border:1px solid #ffffff18;border-radius:24px;padding:19px 17px;box-shadow:0 18px 50px #0008;backdrop-filter:blur(10px)}
-.btn{border:0;border-radius:999px;background:#d4a0b3;color:#24171d;padding:13px 20px;margin-top:14px;font-weight:bold;cursor:pointer;box-shadow:0 10px 30px #0008;transition:.2s;font-size:14px;-webkit-tap-highlight-color:transparent}
-.btn:active{transform:scale(.96)}
-.heart{font-size:32px;letter-spacing:7px;color:#d7aabd}
-.icon{font-size:62px;margin:6px 0;filter:drop-shadow(0 10px 18px #0006)}
-.food{display:flex;justify-content:center;gap:28px;margin:8px 0}
-.food span{font-size:58px;animation:flotar 2.4s ease-in-out infinite}
-.food span:nth-child(2){animation-delay:.4s}
-@keyframes flotar{50%{transform:translateY(-7px)}}
-.drinks{display:flex;justify-content:center;gap:28px;margin:7px}
-.drinks div{font-size:52px}
-.divider{height:1px;background:#ffffff18;margin:16px 0}
-.quote{font-style:italic;color:#d8bfc9}
+.card :: - webkit -scrollbar { display:none }
+@keyframesentrada { from { opacity : 0 ; transform : translateY ( 14px ) } to { opacity : 1 ; transform : none } }​​​​​ 
+.kicker { font : 600 10px Arial, sans - serif ;letter-spacing : 3px ;text-transform:uppercase;color:# d7aabd }
+h 1 { f o n t - s i z e : clamp(38px,10vw,72px);line-height:.92;margin:12px 0}
+h 2 { f o n t - s i z e : clamp(27px,7vw,46px);margin:10px 0 16px}
+p { f o n t - s i z e :clamp(15px,4.2vw,18px);line-height:1.55;color:#e9dfe4;margin:11px 0}
+.sm a l l { f o n t :12px Arial, sans - serif;color:#a89ca3}
+.panel { fondo : # ffffff0a ; borde : 1px sólido # ffffff18 ; radio de borde: 24px ; relleno: 19px 17px ; sombra de caja : 0 18px 50px # 0008 ; filtro de fondo: desenfoque (10px) }
+. b t n { borde : 0; radio de borde : 999px; fondo: #d4a0b3; color: #24171d; relleno: 13px 20px; margen superior: 14px; peso de fuente: negrita; cursor : puntero; sombra de caja: 0 10px 30px #0008; transición: 0.2s; tamaño de fuente: 14px; color de resaltado de toque de Webkit: transparente}
+.btn:active{transform:scale(.96)}btn:active{transform:scale(.96)}
+.heart{font-size:32px;letter-spacing:7px;color:#d7aabd}heart{font-size:32px;letter-spacing:7px;color:#d7aabd}
+.icon{font-size:62px;margin:6px 0;filter:drop-shadow(0 10px 18px #0006)}icon{font-size:62px;margin:6px 0;filter:drop-shadow(0 10px 18px #0006)}
+.food{display:flex;justify-content:center;gap:28px;margin:8px 0}food{display:flex;justify-content:center;gap:28px;margin:8px 0}
+.food span{font-size:58px;animation:flotar 2.4s ease-in-out infinite}food span{font-size:58px;animation:flotar 2.4s ease-in-out infinite}
+.food span:nth-child(2){animation-delay:.4s}food span:nth-child(2){animation-delay:.4s}
+@keyframes flotar{50%{transform:translateY(-7px)}}keyframes flotar{50%{transform:translateY(-7px)}}
+.bebidas{display:flex;justify-content:center;gap:28px;margin:7px}drinks{display:flex;justify-content:center;gap:28px;margin:7px}
+.bebidas div{font-size:52px}drinks div{font-size:52px}
+.divider{height:1px;background:#ffffff18;margin:16px 0}divider{height:1px;background:#ffffff18;margin:16px 0}
+.quote{font-style:italic;color:#d8bfc9}quote{font-style:italic;color:#d8bfc9}
 .final{font-size:clamp(19px,5vw,28px);line-height:1.45}
 
 #musicBar{
